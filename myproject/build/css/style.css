@@ -650,7 +650,7 @@ body {
   list-style-type: none;
   padding: 15px;
   margin: 0;
-  background-color: #CCCCCC;
+  background-color: #0F4CAD;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -663,7 +663,7 @@ body {
   -ms-flex-pack: center; }
   .navbar-link {
     text-decoration: none;
-    color: black;
+    color: #FFF;
     padding: 30px; }
 
 .column-wrapper {
