@@ -665,6 +665,8 @@ body {
     text-decoration: none;
     color: #FFF;
     padding: 30px; }
+  .navbar .left-link {
+    color: yellow; }
 
 .column-wrapper {
   display: -webkit-box;
