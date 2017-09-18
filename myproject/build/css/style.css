@@ -637,7 +637,7 @@ h6 {
   padding: 2rem; }
 
 body {
-  font: 100% Helvetica, sans-serif;
+  font: 100% "Pantom", sans-serif;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -688,7 +688,6 @@ body {
     height: 70px; }
   .column-wrapper-column {
     width: 100%;
-    background-color: #CCCCCC;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
