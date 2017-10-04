@@ -583,6 +583,14 @@ h6 {
     -moz-align-content: space-around;
     -ms-align-content: space-around;
     align-content: space-around; }
+  .navbar .title-link {
+    color: #333;
+    font-weight: bold; }
+    @media (min-width: 320px) and (max-width: 1024px) {
+      .navbar .title-link {
+        color: #FFF;
+        display: inline;
+        font-size: 1.8em; } }
   .navbar-link {
     text-decoration: none;
     color: #333;
@@ -607,29 +615,25 @@ h6 {
       transition: ease-in-out 0.4s; }
     .navbar-link:hover:after {
       width: 105%; }
-  .navbar .title-link {
-    color: #333;
-    font-weight: bold; }
-    @media (min-width: 320px) and (max-width: 1024px) {
-      .navbar .title-link {
-        color: #FFF;
-        display: inline; } }
 
 .mobile-nav--open {
   visibility: hidden;
   cursor: pointer;
-  font-size: 1.5em; }
+  font-size: 2.5em; }
   @media (min-width: 320px) and (max-width: 1024px) {
     .mobile-nav--open {
       position: absolute;
-      top: -10px;
+      top: -30px;
       right: 45px;
       visibility: visible; } }
 
 .mobile-nav--close {
   position: absolute;
-  top: -45px;
-  right: 25px; }
+  top: -70px;
+  right: 45px;
+  font-size: 5em;
+  text-decoration: none;
+  color: #FFF; }
 
 .overlay {
   height: 0%;
@@ -644,14 +648,14 @@ h6 {
 
 .overlay-content {
   position: relative;
-  top: 15%;
+  top: 25%;
   width: 100%;
   text-align: center; }
 
-.overlay a {
+.overlay .mobile-nav--link {
   padding: 20px;
   text-decoration: none;
-  font-size: 3em;
+  font-size: 2em;
   color: #FFF;
   display: block;
   transition: 0.3s; }
@@ -778,7 +782,7 @@ body {
     body {
       background-color: #464646;
       color: #FFF;
-      font-size: 2em; } }
+      font-size: 2.5em; } }
 
 .cover-wrapper {
   display: -webkit-box;
@@ -796,10 +800,14 @@ body {
   text-align: center; }
   @media (min-width: 320px) and (max-width: 1024px) {
     .cover-wrapper {
-      height: 300px; } }
+      height: 500px; } }
   .cover-wrapper .hexagon {
     max-width: 70px;
     height: 70px; }
+    @media (min-width: 320px) and (max-width: 1024px) {
+      .cover-wrapper .hexagon {
+        max-width: 120px;
+        height: 120px; } }
   .cover-wrapper-column {
     width: 100%;
     display: -webkit-box;
