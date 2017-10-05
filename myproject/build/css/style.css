@@ -987,6 +987,7 @@ body {
       @media (min-width: 320px) and (max-width: 1024px) {
         .subtitle-wrapper .wrapper-block--small {
           flex: 0 1 50%;
+          height: 350px;
           width: 350px;
           padding: 10px; } }
       .subtitle-wrapper .wrapper-block--small:hover {
