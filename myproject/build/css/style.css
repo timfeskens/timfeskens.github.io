@@ -986,10 +986,9 @@ body {
       transition: ease-in-out 0.4s; }
       @media (min-width: 320px) and (max-width: 1024px) {
         .subtitle-wrapper .wrapper-block--small {
-          height: 50%;
-          min-width: 35%;
-          padding: 40px;
-          box-sizing: border-box; } }
+          flex: 0 1 50%;
+          width: 400px;
+          padding: 10px; } }
       .subtitle-wrapper .wrapper-block--small:hover {
         filter: drop-shadow(5px 5px 5px #222);
         -webkit-transition: ease-in-out 0.4s;
