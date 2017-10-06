@@ -953,26 +953,10 @@ body {
     -ms-justify-content: space-between;
     justify-content: space-between;
     -ms-flex-pack: space-between;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-align-items: flex-end;
-    -moz-align-items: flex-end;
-    -ms-align-items: flex-end;
-    align-items: flex-end;
     background-color: rgba(82, 114, 167, 0.7);
     padding-top: 5px; }
     @media (min-width: 320px) and (max-width: 1024px) {
       .subtitle-wrapper .wrapper-block {
-        -webkit-flex-direction: wrap;
-        -moz-flex-direction: wrap;
-        -ms-flex-direction: wrap;
-        flex-direction: wrap;
-        -webkit-align-items: flex-start;
-        -moz-align-items: flex-start;
-        -ms-align-items: flex-start;
-        align-items: flex-start;
         -webkit-flex-wrap: wrap;
         -moz-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -990,6 +974,7 @@ body {
       transition: ease-in-out 0.4s; }
       @media (min-width: 320px) and (max-width: 1024px) {
         .subtitle-wrapper .wrapper-block--small {
+          height: 350px;
           width: 350px;
           -webkit-box-flex: 1 1 50%;
           -moz-box-flex: 1 1 50%;
