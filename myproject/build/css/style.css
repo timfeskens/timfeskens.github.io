@@ -965,6 +965,10 @@ body {
     padding-top: 5px; }
     @media (min-width: 320px) and (max-width: 1024px) {
       .subtitle-wrapper .wrapper-block {
+        -webkit-flex-direction: wrap;
+        -moz-flex-direction: wrap;
+        -ms-flex-direction: wrap;
+        flex-direction: wrap;
         -webkit-align-items: flex-start;
         -moz-align-items: flex-start;
         -ms-align-items: flex-start;
