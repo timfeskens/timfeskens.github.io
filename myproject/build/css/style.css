@@ -989,6 +989,9 @@ body {
           flex: 0 1 50%;
           height: 350px;
           width: 350px;
+          -webkit-flex: 1 1 50%;
+          flex: 1 1 50%;
+          box-sizing: border-box;
           padding: 10px; } }
       .subtitle-wrapper .wrapper-block--small:hover {
         filter: drop-shadow(5px 5px 5px #222);
